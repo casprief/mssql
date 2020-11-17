@@ -9,7 +9,7 @@ services:
     ports:
       - "1433:1433"
     environment:
-      SA_PASSWORD: "elessDB18"
+      SA_PASSWORD: "pwdDB18"
       ACCEPT_EULA: "Y"
     volumes:
       - dbdata:/var/opt/mssql/data
